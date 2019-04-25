@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-04-25T19:07:16Z" name="Suite1" finished-at="2019-04-25T19:07:46Z" duration-ms="30612">
+    <groups>
+    </groups>
+    <test started-at="2019-04-25T19:07:16Z" name="Regression1" finished-at="2019-04-25T19:07:46Z" duration-ms="30612">
+      <class name="testspack.MakeMyTripHomePageTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testspack.MakeMyTripHomePageTest@3eb738bb]" started-at="2019-04-25T14:07:16Z" name="beforeMethod" finished-at="2019-04-25T14:07:27Z" duration-ms="10886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="citiesselection()[pri:0, instance:testspack.MakeMyTripHomePageTest@3eb738bb]" started-at="2019-04-25T14:07:27Z" name="citiesselection" finished-at="2019-04-25T14:07:46Z" duration-ms="19037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- citiesselection -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testspack.MakeMyTripHomePageTest@3eb738bb]" started-at="2019-04-25T14:07:46Z" name="afterMethod" finished-at="2019-04-25T14:07:46Z" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testspack.MakeMyTripHomePageTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

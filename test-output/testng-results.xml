@@ -2,19 +2,23 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-25T18:56:34Z" name="Suite1" finished-at="2019-04-25T18:57:04Z" duration-ms="30055">
+  <suite started-at="2019-04-25T19:53:09Z" name="Suite1" finished-at="2019-04-25T19:53:40Z" duration-ms="30307">
     <groups>
     </groups>
-    <test started-at="2019-04-25T18:56:34Z" name="Regression1" finished-at="2019-04-25T18:57:04Z" duration-ms="30055">
+    <test started-at="2019-04-25T19:53:09Z" name="Regression1" finished-at="2019-04-25T19:53:40Z" duration-ms="30307">
       <class name="testspack.MakeMyTripHomePageTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testspack.MakeMyTripHomePageTest@752325ad]" started-at="2019-04-25T13:56:34Z" name="beforeMethod" finished-at="2019-04-25T13:56:45Z" duration-ms="10990" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testspack.MakeMyTripHomePageTest@7817fd62]" started-at="2019-04-25T14:53:09Z" name="beforeMethod" finished-at="2019-04-25T14:53:20Z" duration-ms="10501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="citiesselection()[pri:0, instance:testspack.MakeMyTripHomePageTest@752325ad]" started-at="2019-04-25T13:56:45Z" name="citiesselection" finished-at="2019-04-25T13:57:04Z" duration-ms="19052" status="PASS">
+        <test-method signature="citiesselection()[pri:0, instance:testspack.MakeMyTripHomePageTest@7817fd62]" started-at="2019-04-25T14:53:20Z" name="citiesselection" finished-at="2019-04-25T14:53:39Z" duration-ms="19089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- citiesselection -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testspack.MakeMyTripHomePageTest@7817fd62]" started-at="2019-04-25T14:53:39Z" name="afterMethod" finished-at="2019-04-25T14:53:40Z" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- testspack.MakeMyTripHomePageTest -->
     </test> <!-- Regression1 -->
   </suite> <!-- Suite1 -->

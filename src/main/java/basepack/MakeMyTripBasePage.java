@@ -11,15 +11,23 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utilPack.MakeMyTripUtils;
+//import utilPack.WebEventlisteners;
+
+
 
 public class MakeMyTripBasePage {
 	public static WebDriver driver;
 	public static Properties prop;
 	public static FileInputStream fis;
+	
+	/*public static EventFiringWebDriver e_driver;
+	public static WebEventlistener eventlistenet;
+	*/
 	
 	public MakeMyTripBasePage() {
 		prop= new Properties();
@@ -53,6 +61,11 @@ public class MakeMyTripBasePage {
 				System.setProperty("webdriver.gecko.driver", "C:\\Users\\vijay\\Downloads\\geckodriver-v0.24.0-win64\\geckodriver.exe");
 				    driver = new FirefoxDriver();			
 		}
+		/*e_driver = new EventFiringWebDriver(driver)	;
+		eventlistenet =new WebEventlistener();
+		e_driver.register(eventlistenet);
+		driver=e_driver;
+		*/
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(MakeMyTripUtils.page_load_timeout, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(MakeMyTripUtils.implicit_wait_timeout, TimeUnit.SECONDS)	;
